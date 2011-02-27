@@ -204,10 +204,13 @@ namespace math
 		static Mat4<T> EulerRotation(Vec3<T> rotation)
 		{
 			// TODO: Test this
-			// TODO
+			return EulerRotationZ(rotation.z)
+			     * EulerRotationX(rotation.x)
+			     * EulerRotationY(rotation.y);
 		}
 		static Mat4<T> EulerRotationX(float rotation)
 		{
+			rotation = Math::degToRad(rotation);
 			// TODO: Test this
 			float s = sin(rotation);
 			float c = cos(rotation);
@@ -219,6 +222,7 @@ namespace math
 		}
 		static Mat4<T> EulerRotationY(float rotation)
 		{
+			rotation = Math::degToRad(rotation);
 			// TODO: Test this
 			float s = sin(rotation);
 			float c = cos(rotation);
@@ -229,6 +233,7 @@ namespace math
 		}
 		static Mat4<T> EulerRotationZ(float rotation)
 		{
+			rotation = Math::degToRad(rotation);
 			// TODO: Test this
 			float s = sin(rotation);
 			float c = cos(rotation);
