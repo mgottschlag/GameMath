@@ -26,6 +26,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include "GameMath/Mat3.hpp"
 #include "GameMath/Mat4.hpp"
 #include "GameMath/Math.hpp"
+#include "GameMath/Plane.hpp"
 #include "GameMath/Platform.hpp"
 #include "GameMath/Quaternion.hpp"
 #include "GameMath/Types.hpp"

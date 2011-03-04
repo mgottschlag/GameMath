@@ -8,3 +8,4 @@ endif(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
 
 add_executable(StaticTests StaticTests.cpp)
 add_executable(Mat4f Mat4f.cpp)
+add_executable(Plane Plane.cpp)
