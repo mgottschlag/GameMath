@@ -158,6 +158,11 @@ namespace math
 		T w;
 	};
 
+	template<typename T> Vec4<T> operator*(T s, const Vec4<T> &v)
+	{
+		return v * s;
+	}
+
 	typedef Vec4<int> Vec4i;
 	typedef Vec4<unsigned int> Vec4u;
 	typedef Vec4<float> Vec4f;

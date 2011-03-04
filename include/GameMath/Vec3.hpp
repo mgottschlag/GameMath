@@ -304,6 +304,11 @@ namespace math
 			T z;
 	};
 
+	template<typename T> Vec3<T> operator*(T s, const Vec3<T> &v)
+	{
+		return v * s;
+	}
+
 	typedef Vec3<int> Vec3i;
 	typedef Vec3<unsigned int> Vec3u;
 	typedef Vec3<float> Vec3f;

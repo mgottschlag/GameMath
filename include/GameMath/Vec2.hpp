@@ -240,6 +240,11 @@ namespace math
 			T y;
 	};
 
+	template<typename T> Vec2<T> operator*(T s, const Vec2<T> &v)
+	{
+		return v * s;
+	}
+
 	typedef Vec2<int> Vec2i;
 	typedef Vec2<unsigned int> Vec2u;
 	typedef Vec2<float> Vec2f;
