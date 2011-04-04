@@ -204,9 +204,9 @@ namespace math
 		static Mat4<T> EulerRotation(Vec3<T> rotation)
 		{
 			// TODO: Test this
-			return EulerRotationZ(rotation.z)
+			return EulerRotationY(rotation.y)
 			     * EulerRotationX(rotation.x)
-			     * EulerRotationY(rotation.y);
+			     * EulerRotationZ(rotation.z);
 		}
 		static Mat4<T> EulerRotationX(float rotation)
 		{
