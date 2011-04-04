@@ -58,14 +58,14 @@ namespace math
 			/**
 			 * Constructor.
 			 */
-			Vec2(const char *s)
+			explicit Vec2(const char *s)
 			{
 				set(s);
 			}
 			/**
 			 * Constructor.
 			 */
-			Vec2(const std::string &s)
+			explicit Vec2(const std::string &s)
 			{
 				set(s);
 			}
