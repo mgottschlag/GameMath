@@ -23,6 +23,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #define GAMEMATH_HPP_INCLUDED
 
 #include "GameMath/Alignment.hpp"
+#include "GameMath/BoundingBox.hpp"
+#include "GameMath/Frustum.hpp"
 #include "GameMath/Mat3.hpp"
 #include "GameMath/Mat4.hpp"
 #include "GameMath/Math.hpp"
